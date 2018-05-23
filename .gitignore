@@ -1,0 +1,8 @@
+### Unity Meta Files ###
+*.meta
+
+### OSX ###
+*.DS_Store
+
+### Vim ###
+*.swp*

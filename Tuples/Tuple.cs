@@ -21,10 +21,7 @@ namespace CommonStructures {
         /// <param name="item2">The second element in the pair</param>
         /// <returns>An ordered pair</returns>
         public static Tuple<T1, T2> CreateTuple(T1 item1, T2 item2) {
-            return new Tuple<T1, T2>() {
-                item1 = item1,
-                item2 = item2
-            };
+            return new Tuple<T1, T2>(item1, item2);
         }
     }
 }
