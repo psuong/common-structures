@@ -5,9 +5,7 @@ namespace CommonStructures {
     /// </summary>
     public struct Tuple {
 
-        /// <summary>
-        /// A utility function to create a pair.
-        /// </summary>
+        /// <summary> /// A utility function to create a pair.  /// </summary>
         public static Tuple<T1, T2> CreateTuple<T1, T2>(T1 item1, T2 item2) {
             return new Tuple<T1, T2>(item1, item2);
         }
